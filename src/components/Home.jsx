@@ -272,15 +272,15 @@ function Home() {
                 <div className='flex flex-row items-center gap-8'>
                     <button disabled="disabled" className='flex flex-col rounded-none bg-[#003559] px-10 py-10 text-white'>
                         <h1 className='font-bold text-3xl'>03</h1>
-                        <h1 className='font-extralight'>Days</h1>
+                        <h1 className='font-extralight text-xl'>Days</h1>
                     </button>
                     <button disabled="disabled" className='flex flex-col rounded-none bg-[#003559] px-10 py-10 text-white'>
                         <h1 className='font-bold text-3xl'>08</h1>
-                        <h1 className='font-extralight'>Hours</h1>
+                        <h1 className='font-extralight text-xl'>Hours</h1>
                     </button>
                     <button disabled="disabled" className='flex flex-col rounded-none bg-[#003559] px-10 py-10 text-white'>
                         <h1 className='font-bold text-3xl'>09</h1>
-                        <h1 className='font-extralight'>Minutes</h1>
+                        <h1 className='font-extralight text-xl'>Minutes</h1>
                     </button>
                 </div>
                 <button className='w-[35%] bg-[#003559] px-6 py-2 text-white font-bold rounded-none'>Shop Now</button>
