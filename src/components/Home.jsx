@@ -56,16 +56,18 @@ function Home() {
                     <div className='flex absolute top-[0%] left-[-5%]'>
                         <img src={dots} alt="" />
                     </div>
-                    <button className='absolute bottom-[-5%] right-5 bg-[#003559] px-5 py-5 text-white text-2xl rounded-none'>
-                        <BsArrowDown/>
-                    </button>
+                    <a href="#features">
+                        <button className='absolute bottom-[-5%] right-5 bg-[#003559] px-5 py-5 text-white text-2xl rounded-none'>
+                            <BsArrowDown/>
+                        </button>
+                    </a>
                 </div>
             </div>
 
         </div>
         
         <div className='relative scrollbar-hide'>
-            <div className='flex flex-col gap-8 m-12  items-center'>
+            <div className='flex flex-col gap-8 m-12  items-center' id='features'>
                 <h4 className='font-bold text-5xl'>Our Featured Collection</h4>
             </div>
             <Swiper 
@@ -164,7 +166,7 @@ function Home() {
                             <div className='bd border border-[#003559] flex flex-col items-center p-10'>
                                 <h5 className='font-bold text-4xl'>
                                     {counterOn && 
-                                        <CountUp start={0} end={250} duration={4} delay={0}/>
+                                        <CountUp start={0} end={250} duration={3} delay={0}/>
                                     }
                                 +
                                 </h5>
@@ -174,7 +176,7 @@ function Home() {
                             <div className='bg-[#003559] flex flex-col items-center text-white p-10'>
                                 <h5 className='font-bold text-4xl'>
                                     {counterOn && 
-                                        <CountUp start={0} end={7000} duration={4} delay={0}/>
+                                        <CountUp start={0} end={7000} duration={3} delay={0}/>
                                     }
                                 +
                                 </h5>
@@ -185,7 +187,7 @@ function Home() {
                                 <h5 className='font-bold text-4xl'>
                                     $
                                     {counterOn && 
-                                        <CountUp start={0} end={3900} duration={4} delay={0}/>
+                                        <CountUp start={0} end={3900} duration={3} delay={0}/>
                                     }
                                 +
                                 </h5>
