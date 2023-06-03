@@ -161,7 +161,7 @@ function Home() {
                 {/* <div> */}
                     <ScrollTrigger  onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                         <div className='flex flex-row gap-4 w-1/2'>
-                            <div className='bd flex flex-col items-center p-10'>
+                            <div className='bd border border-[#003559] flex flex-col items-center p-10'>
                                 <h5 className='font-bold text-4xl'>
                                     {counterOn && 
                                         <CountUp start={0} end={250} duration={4} delay={0}/>
@@ -181,7 +181,7 @@ function Home() {
                                 <p className='text-sm font-semibold'>Product Sold</p>
                             </div>
                                 
-                            <div className='bd flex flex-col items-center p-10'>
+                            <div className='bd border border-[#003559] flex flex-col items-center p-10'>
                                 <h5 className='font-bold text-4xl'>
                                     $
                                     {counterOn && 
